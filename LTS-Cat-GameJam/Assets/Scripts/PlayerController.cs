@@ -14,8 +14,8 @@ public class PlayerController : MonoBehaviour
     private float _velocity;
     private Rigidbody2D rb;
     public CheckingJump jumpScript;
-
     public float speed; 
+
     [SerializeField] private float gravityMultiplier = 3.0f; 
     [SerializeField] private float jumpPower;
 
@@ -37,8 +37,6 @@ public class PlayerController : MonoBehaviour
     private void Update()
     {
         ApplyMovement();
-        Debug.Log(_characterController.isGrounded);
-  
         
     }
 
@@ -58,7 +56,6 @@ public class PlayerController : MonoBehaviour
        if(context.performed && jumpScript.characterCanJump == true)
        {
             rb.velocity = new Vector2(rb.velocity.x, jumpPower);
-            Debug.Log("Character jumped");
             jumpScript.characterCanJump = false; 
        }
     }
