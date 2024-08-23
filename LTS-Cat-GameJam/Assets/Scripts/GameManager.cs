@@ -18,12 +18,15 @@ public class GameManager : MonoBehaviour
     public GameObject _goldStarTwo;
     public GameObject _goldStarThree;
 
+    public AK.Wwise.Event playBGM;
+
 
     private void Start()
     {
         _goldStarOne.SetActive(true); 
         _goldStarTwo.SetActive(true); 
         _goldStarThree.SetActive(true); 
+        playBGM.Post(gameObject);
     }
 
     private void Update()

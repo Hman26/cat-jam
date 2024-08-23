@@ -9,24 +9,6 @@
 	</RootPaths>
 	<DialogueEvents/>
 	<SoundBanks>
-		<SoundBank Id="983016379" Type="User" Language="SFX" Hash="{8E308092-E5F5-60E8-8F64-5A83E36DEFC4}">
-			<ShortName>Cat</ShortName>
-			<Path>Cat.bnk</Path>
-			<Media>
-				<File Id="569913775" Language="SFX" Streaming="false" Location="Memory">
-					<ShortName>UI_Pop.wav</ShortName>
-					<CachePath>SFX/UI_Pop_10C4C929.wem</CachePath>
-				</File>
-			</Media>
-			<Events>
-				<Event Id="2593602088" Name="emptyTest" MaxAttenuation="0" DurationType="OneShot" DurationMin="0" DurationMax="0"/>
-				<Event Id="4175962055" Name="playUIClick" DurationType="OneShot" DurationMin="0.37502083" DurationMax="0.37502083">
-					<MediaRefs>
-						<MediaRef Id="569913775"/>
-					</MediaRefs>
-				</Event>
-			</Events>
-		</SoundBank>
 		<SoundBank Id="1355168291" Type="User" Language="SFX" Hash="{F56A610C-C7C4-F874-B68B-7ADDF94EBB7A}">
 			<ShortName>Init</ShortName>
 			<Path>Init.bnk</Path>
@@ -40,6 +22,23 @@
 				<Bus Id="3803692087" Name="Master Audio Bus"/>
 			</Busses>
 		</SoundBank>
+		<SoundBank Id="2410569202" Type="User" Language="SFX" Hash="{7FAE1CA6-7F5E-77E6-831B-1FA1AF41AC72}">
+			<ShortName>Main_SB</ShortName>
+			<Path>Main_SB.bnk</Path>
+			<Media>
+				<File Id="994021658" Language="SFX" Streaming="false" Location="Memory">
+					<ShortName>BGM.wav</ShortName>
+					<CachePath>SFX/BGM_D79FB2B7.wem</CachePath>
+				</File>
+			</Media>
+			<Events>
+				<Event Id="3126765036" Name="Play_BGM" DurationType="Infinite">
+					<MediaRefs>
+						<MediaRef Id="994021658"/>
+					</MediaRefs>
+				</Event>
+			</Events>
+		</SoundBank>
 	</SoundBanks>
-	<FileHash>{783280A4-F17F-E095-010B-B7AAE8B99848}</FileHash>
+	<FileHash>{588D7ECF-B0F9-E4CB-7702-5182B351EA29}</FileHash>
 </SoundBanksInfo>

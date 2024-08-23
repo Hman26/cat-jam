@@ -1,7 +1,0 @@
-Event	ID	Name			Wwise Object Path	Notes
-	2593602088	emptyTest			\Default Work Unit\emptyTest	
-	4175962055	playUIClick			\Default Work Unit\playUIClick	
-
-In Memory Audio	ID	Name	Audio source file		Wwise Object Path	Notes	Data Size
-	569913775	UI_Pop	C:\Users\User\Documents\GitHub\cat-jam\LTS-Cat-GameJam\LTS-Cat-GameJam_WwiseProject\.cache\Windows\SFX\UI_Pop_10C4C929.wem		\Actor-Mixer Hierarchy\Default Work Unit\UI_Pop		72100
-
