@@ -3,6 +3,9 @@ using System.Collections.Generic;
 using UnityEngine;
 using TMPro;
 using System;
+using Microsoft.Unity.VisualStudio.Editor;
+using UnityEngine.UI;
+using UnityEngine.UIElements;
 
 public class GameManager : MonoBehaviour
 {
@@ -17,7 +20,14 @@ public class GameManager : MonoBehaviour
     public GameObject _goldStarOne;
     public GameObject _goldStarTwo;
     public GameObject _goldStarThree;
+    public GameObject _greyStarOne;
+    public GameObject _greyStarTwo;
+    public GameObject _greyStarThree;
+    public UnityEngine.UI.Image fillBar;
+    public GameObject winPanel;
+    public GameObject losePanel; 
 
+    //WWISE
     public AK.Wwise.Event playBGM;
 
 
@@ -27,41 +37,55 @@ public class GameManager : MonoBehaviour
         _goldStarTwo.SetActive(true); 
         _goldStarThree.SetActive(true); 
         playBGM.Post(gameObject);
+
+        winPanel.SetActive(false);
+        losePanel.SetActive(false);
     }
 
     private void Update()
     {
         //---- Game Timer -----
         _gameTimer -= Time.deltaTime;
-        timerTxt.text = _gameTimer.ToString("0.00"); 
+        timerTxt.text = _gameTimer.ToString("0.00");
+
+        fillBar.fillAmount = _gameTimer / 30f; 
+
         if (_gameTimer <= 0)
         {
             Debug.Log("Time is up!");  
             _gameTimer = 0; 
         }
 
+        lapsTxt.text = currentLap.ToString() + "/" + _gameLaps.ToString();
         //----- Lap Tracker -----
         if (currentLap >= _gameLaps)
         {
             Debug.Log("Round is done :)");
-            float roundFinishTime = _gameTimer; 
+            float roundFinishTime = _gameTimer;
             // Then, check what time they got and see what star they got
-            if (roundFinishTime >= 0 && roundFinishTime <= 10)
+            if (roundFinishTime >= 11 && roundFinishTime <= 20)
+            {
+                Debug.Log("You get 2 stars");
+                _goldStarOne.SetActive(false);
+            }
+            else if (roundFinishTime >= 0 && roundFinishTime <= 10)
             {
                 Debug.Log("You got 1 star");
                 _goldStarTwo.SetActive(false);
-                _goldStarOne.SetActive(false);
-            }
-            else if (roundFinishTime <= 11 && roundFinishTime <= 20)
-            {
-                Debug.Log("You get 2 stars");
-                _goldStarThree.SetActive(false); 
             }
             else
             {
                 Debug.Log("You got 3 stars!");
             }
         }
-        lapsTxt.text = currentLap.ToString() + "/" + _gameLaps.ToString();
+        if (currentLap > 3 && _gameTimer >= 0)
+        {
+            winPanel.SetActive(true); 
+        }
+        else if (currentLap < 3 && _gameTimer <= 0)
+        {
+            losePanel.SetActive(true); 
+        }
+        
     }
 }
