@@ -13,7 +13,21 @@ public class GameManager : MonoBehaviour
 
     // USER INTERFACE
     public TextMeshProUGUI timerTxt; 
-    public TextMeshProUGUI lapsTxt; 
+    public TextMeshProUGUI lapsTxt;
+    public GameObject _goldStarOne;
+    public GameObject _goldStarTwo;
+    public GameObject _goldStarThree;
+
+    public AK.Wwise.Event playBGM;
+
+
+    private void Start()
+    {
+        _goldStarOne.SetActive(true); 
+        _goldStarTwo.SetActive(true); 
+        _goldStarThree.SetActive(true); 
+        playBGM.Post(gameObject);
+    }
 
     private void Update()
     {
@@ -35,10 +49,13 @@ public class GameManager : MonoBehaviour
             if (roundFinishTime >= 0 && roundFinishTime <= 10)
             {
                 Debug.Log("You got 1 star");
+                _goldStarTwo.SetActive(false);
+                _goldStarOne.SetActive(false);
             }
             else if (roundFinishTime <= 11 && roundFinishTime <= 20)
             {
                 Debug.Log("You get 2 stars");
+                _goldStarThree.SetActive(false); 
             }
             else
             {

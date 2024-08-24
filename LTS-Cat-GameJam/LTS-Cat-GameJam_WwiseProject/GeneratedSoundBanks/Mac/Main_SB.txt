@@ -1,0 +1,6 @@
+Event	ID	Name			Wwise Object Path	Notes
+	3126765036	Play_BGM			\Default Work Unit\Play_BGM	
+
+In Memory Audio	ID	Name	Audio source file		Wwise Object Path	Notes	Data Size
+	994021658	BGM	C:\Users\User\Documents\GitHub\cat-jam\LTS-Cat-GameJam\LTS-Cat-GameJam_WwiseProject\.cache\Mac\SFX\BGM_D79FB2B7.wem		\Actor-Mixer Hierarchy\Default Work Unit\BGM		6762096
+

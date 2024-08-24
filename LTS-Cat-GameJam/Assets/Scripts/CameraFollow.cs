@@ -10,6 +10,8 @@ public class CameraFollow : MonoBehaviour
     public Transform target;
     private Vector3 vel = Vector3.zero;
 
+    
+
     private void Update()
     {
         Vector3 targetPosition = target.position;
