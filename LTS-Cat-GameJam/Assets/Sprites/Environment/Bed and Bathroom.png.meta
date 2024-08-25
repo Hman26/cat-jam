@@ -43,7 +43,7 @@ TextureImporter:
   nPOTScale: 0
   lightmap: 0
   compressionQuality: 50
-  spriteMode: 1
+  spriteMode: 2
   spriteExtrude: 1
   spriteMeshType: 1
   alignment: 0
@@ -108,7 +108,469 @@ TextureImporter:
     forceMaximumCompressionQuality_BC6H_BC7: 0
   spriteSheet:
     serializedVersion: 2
-    sprites: []
+    sprites:
+    - serializedVersion: 2
+      name: Bed and Bathroom_0
+      rect:
+        serializedVersion: 2
+        x: 120
+        y: 883
+        width: 36
+        height: 142
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 933604f0318eda54e8bc8ebe9c93646d
+      internalID: -2136615303
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Bed and Bathroom_1
+      rect:
+        serializedVersion: 2
+        x: 177
+        y: 883
+        width: 36
+        height: 142
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9af9cb00cb4ae6a45b3b400702d6f12b
+      internalID: 1834899712
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Bed and Bathroom_2
+      rect:
+        serializedVersion: 2
+        x: 234
+        y: 883
+        width: 36
+        height: 142
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 47a319a59e4d55441bc12936edd91605
+      internalID: -1953052314
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Bed and Bathroom_3
+      rect:
+        serializedVersion: 2
+        x: 470
+        y: 738
+        width: 495
+        height: 309
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f34a05c9c6896d141814dc60b101d83a
+      internalID: -1217849807
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Bed and Bathroom_4
+      rect:
+        serializedVersion: 2
+        x: 1062
+        y: 628
+        width: 252
+        height: 396
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b208095cb7f79e84fb81e5b675cdc3ec
+      internalID: 963362792
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Bed and Bathroom_5
+      rect:
+        serializedVersion: 2
+        x: 1366
+        y: 931
+        width: 88
+        height: 62
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d4d7cf6043804ad4c85cd30106d5e1f9
+      internalID: -1581032239
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Bed and Bathroom_6
+      rect:
+        serializedVersion: 2
+        x: 1528
+        y: 900
+        width: 106
+        height: 106
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 071cb3b30e83a714a83589e9a35b8b88
+      internalID: 1087445736
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Bed and Bathroom_7
+      rect:
+        serializedVersion: 2
+        x: 1669
+        y: 900
+        width: 190
+        height: 50
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1dfa12115ede73c4e9f919e6cdc2f1d1
+      internalID: 302968466
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Bed and Bathroom_8
+      rect:
+        serializedVersion: 2
+        x: 92
+        y: 680
+        width: 136
+        height: 142
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 00c44d8148df9f8409927bee20423a5b
+      internalID: 1863705558
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Bed and Bathroom_9
+      rect:
+        serializedVersion: 2
+        x: 1379
+        y: 768
+        width: 72
+        height: 68
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1e4802c3ac91a004d944de9f3c1a276f
+      internalID: 801862765
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Bed and Bathroom_10
+      rect:
+        serializedVersion: 2
+        x: 1531
+        y: 819
+        width: 190
+        height: 50
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1368caaf185349c4fb5b9fa1e83227dc
+      internalID: -1413378471
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Bed and Bathroom_11
+      rect:
+        serializedVersion: 2
+        x: 1747
+        y: 761
+        width: 106
+        height: 106
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0a55868027e0aad49bd38dad8e38bd25
+      internalID: -2048402145
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Bed and Bathroom_12
+      rect:
+        serializedVersion: 2
+        x: 280
+        y: 692
+        width: 129
+        height: 120
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: af5621bbf0a9f9e42b1d7004e0c0cd22
+      internalID: -643410143
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Bed and Bathroom_13
+      rect:
+        serializedVersion: 2
+        x: 1531
+        y: 688
+        width: 106
+        height: 106
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b70599064319fc34b9e2a28c19b727d5
+      internalID: 362031253
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Bed and Bathroom_14
+      rect:
+        serializedVersion: 2
+        x: 1669
+        y: 688
+        width: 190
+        height: 50
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ed9e5b8b07d1f65448b2471722738519
+      internalID: 1878431440
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Bed and Bathroom_15
+      rect:
+        serializedVersion: 2
+        x: 89
+        y: 558
+        width: 498
+        height: 108
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c9167639669dc0b47b8de24ea6a2fdf7
+      internalID: -763934757
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Bed and Bathroom_16
+      rect:
+        serializedVersion: 2
+        x: 723
+        y: 14
+        width: 269
+        height: 670
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a9800f819562c1e46bf5b0eee6c6fa6b
+      internalID: -1670366197
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Bed and Bathroom_17
+      rect:
+        serializedVersion: 2
+        x: 1329
+        y: 475
+        width: 66
+        height: 138
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: bc89c0d8c5f56d84fb184134e1d2d3e6
+      internalID: -2003135050
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Bed and Bathroom_18
+      rect:
+        serializedVersion: 2
+        x: 1474
+        y: 471
+        width: 144
+        height: 159
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 12314a5d7d59bef448f8324f6689b901
+      internalID: 312910040
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Bed and Bathroom_19
+      rect:
+        serializedVersion: 2
+        x: 36
+        y: 17
+        width: 618
+        height: 378
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d3ee1bca5f6849240a175cb6261e16c6
+      internalID: 673330254
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Bed and Bathroom_20
+      rect:
+        serializedVersion: 2
+        x: 1049
+        y: 17
+        width: 426
+        height: 354
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5c94b6d2d5cdb4c49a45c5ec2c1ed8b4
+      internalID: 8004739
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Bed and Bathroom_21
+      rect:
+        serializedVersion: 2
+        x: 1532
+        y: 25
+        width: 353
+        height: 377
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 639a1828c593f8c4b9008b636e86ae64
+      internalID: 148566795
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
     outline: []
     physicsShape: []
     bones: []
@@ -119,7 +581,29 @@ TextureImporter:
     edges: []
     weights: []
     secondaryTextures: []
-    nameFileIdTable: {}
+    nameFileIdTable:
+      Bed and Bathroom_0: -2136615303
+      Bed and Bathroom_1: 1834899712
+      Bed and Bathroom_10: -1413378471
+      Bed and Bathroom_11: -2048402145
+      Bed and Bathroom_12: -643410143
+      Bed and Bathroom_13: 362031253
+      Bed and Bathroom_14: 1878431440
+      Bed and Bathroom_15: -763934757
+      Bed and Bathroom_16: -1670366197
+      Bed and Bathroom_17: -2003135050
+      Bed and Bathroom_18: 312910040
+      Bed and Bathroom_19: 673330254
+      Bed and Bathroom_2: -1953052314
+      Bed and Bathroom_20: 8004739
+      Bed and Bathroom_21: 148566795
+      Bed and Bathroom_3: -1217849807
+      Bed and Bathroom_4: 963362792
+      Bed and Bathroom_5: -1581032239
+      Bed and Bathroom_6: 1087445736
+      Bed and Bathroom_7: 302968466
+      Bed and Bathroom_8: 1863705558
+      Bed and Bathroom_9: 801862765
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
   userData: 
