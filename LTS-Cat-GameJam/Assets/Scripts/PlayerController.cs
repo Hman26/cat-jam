@@ -10,13 +10,13 @@ public class PlayerController : MonoBehaviour
     // VARIABLES
     private Vector2 _input; 
     private CharacterController _characterController;
-    private float _gravity = 9.81f;
+   // private float _gravity = 9.81f;
     private float _velocity;
     private Rigidbody2D rb;
     public CheckingJump jumpScript;
     public float speed; 
 
-    [SerializeField] private float gravityMultiplier = 3.0f; 
+    //[SerializeField] private float gravityMultiplier = 3.0f; 
     [SerializeField] private float jumpPower;
 
     //Ground Check

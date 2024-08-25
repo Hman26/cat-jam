@@ -1,0 +1,12 @@
+Event	ID	Name			Wwise Object Path	Notes
+	3126765036	Play_BGM			\Default Work Unit\Play_BGM	
+	3854155799	Play_Footsteps			\Default Work Unit\Play_Footsteps	
+
+In Memory Audio	ID	Name	Audio source file		Wwise Object Path	Notes	Data Size
+	412721091	f4	C:\Users\User\Documents\GitHub\cat-jam\LTS-Cat-GameJam\LTS-Cat-GameJam_WwiseProject\.cache\Windows\SFX\f4_10C4C929.wem		\Actor-Mixer Hierarchy\Default Work Unit\Footsteps\f4		21264
+	625851356	f3	C:\Users\User\Documents\GitHub\cat-jam\LTS-Cat-GameJam\LTS-Cat-GameJam_WwiseProject\.cache\Windows\SFX\f3_10C4C929.wem		\Actor-Mixer Hierarchy\Default Work Unit\Footsteps\f3		23028
+	694010476	f2	C:\Users\User\Documents\GitHub\cat-jam\LTS-Cat-GameJam\LTS-Cat-GameJam_WwiseProject\.cache\Windows\SFX\f2_10C4C929.wem		\Actor-Mixer Hierarchy\Default Work Unit\Footsteps\f2		23028
+	841149917	f1	C:\Users\User\Documents\GitHub\cat-jam\LTS-Cat-GameJam\LTS-Cat-GameJam_WwiseProject\.cache\Windows\SFX\f1_10C4C929.wem		\Actor-Mixer Hierarchy\Default Work Unit\Footsteps\f1		19500
+	994021658	BGM	C:\Users\User\Documents\GitHub\cat-jam\LTS-Cat-GameJam\LTS-Cat-GameJam_WwiseProject\.cache\Windows\SFX\BGM_D79FB2B7.wem		\Actor-Mixer Hierarchy\Default Work Unit\BGM		6762096
+	1036798395	f5	C:\Users\User\Documents\GitHub\cat-jam\LTS-Cat-GameJam\LTS-Cat-GameJam_WwiseProject\.cache\Windows\SFX\f5_10C4C929.wem		\Actor-Mixer Hierarchy\Default Work Unit\Footsteps\f5		21264
+
