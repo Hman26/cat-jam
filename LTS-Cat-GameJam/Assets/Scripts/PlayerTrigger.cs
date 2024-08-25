@@ -8,6 +8,11 @@ public class PlayerTrigger : MonoBehaviour
     public Transform square;
     public GameManager gameManager;
 
+    void Awake()
+    {
+        gameManager = GameObject.Find("GameManager").GetComponent<GameManager>();
+    }
+
 
     private void FixedUpdate()
     {
