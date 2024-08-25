@@ -14,6 +14,7 @@ namespace AK
     namespace EVENTS
     {
         static const AkUniqueID PLAY_BGM = 3126765036U;
+        static const AkUniqueID PLAY_FOOTSTEPS = 3854155799U;
     } // namespace EVENTS
 
     namespace BANKS

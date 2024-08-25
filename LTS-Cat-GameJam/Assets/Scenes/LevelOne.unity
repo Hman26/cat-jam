@@ -1291,7 +1291,7 @@ MonoBehaviour:
   playBGM:
     idInternal: 0
     valueGuidInternal: 
-    WwiseObjectReference: {fileID: 0}
+    WwiseObjectReference: {fileID: 11400000, guid: 90730e7bcbf1050479eb1808ce02ca45, type: 2}
 --- !u!4 &768003379
 Transform:
   m_ObjectHideFlags: 0
@@ -1654,6 +1654,7 @@ GameObject:
   m_Component:
   - component: {fileID: 1114634522}
   - component: {fileID: 1114634521}
+  - component: {fileID: 1114634523}
   m_Layer: 0
   m_Name: WwiseGlobal
   m_TagString: Untagged
@@ -1701,6 +1702,30 @@ Transform:
   m_Children: []
   m_Father: {fileID: 0}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &1114634523
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1114634520}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: b1591585565ddf94982ee1b0bfdfd68a, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  triggerList: f7e1664c
+  useOtherObject: 0
+  data:
+    idInternal: 0
+    valueGuidInternal: 
+    WwiseObjectReference: {fileID: 11400000, guid: 783da68013d1b7b4487dbfd412e7e49b, type: 2}
+  decodeBank: 0
+  loadAsynchronous: 0
+  saveDecodedBank: 0
+  unloadTriggerList: 958ca0ea
+  bankNameInternal: 
+  valueGuidInternal: 
 --- !u!4 &1276462178 stripped
 Transform:
   m_CorrespondingSourceObject: {fileID: 8425613943190835257, guid: 015ea7523aae3a841a89a66955a36d93, type: 3}

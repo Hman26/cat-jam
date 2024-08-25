@@ -33,9 +33,12 @@ public class GameManager : MonoBehaviour
 
     private void Start()
     {
+        playBGM.Stop(gameObject);
+
         _goldStarOne.SetActive(true); 
         _goldStarTwo.SetActive(true); 
         _goldStarThree.SetActive(true); 
+
         playBGM.Post(gameObject);
 
         winPanel.SetActive(false);

@@ -22,13 +22,33 @@
 				<Bus Id="3803692087" Name="Master Audio Bus"/>
 			</Busses>
 		</SoundBank>
-		<SoundBank Id="2410569202" Type="User" Language="SFX" Hash="{7FAE1CA6-7F5E-77E6-831B-1FA1AF41AC72}">
+		<SoundBank Id="2410569202" Type="User" Language="SFX" Hash="{A323CF2F-8364-04EA-0F71-43FB0F8033BC}">
 			<ShortName>Main_SB</ShortName>
 			<Path>Main_SB.bnk</Path>
 			<Media>
+				<File Id="412721091" Language="SFX" Streaming="false" Location="Memory">
+					<ShortName>f4.wav</ShortName>
+					<CachePath>SFX/f4_10C4C929.wem</CachePath>
+				</File>
+				<File Id="625851356" Language="SFX" Streaming="false" Location="Memory">
+					<ShortName>f3.wav</ShortName>
+					<CachePath>SFX/f3_10C4C929.wem</CachePath>
+				</File>
+				<File Id="694010476" Language="SFX" Streaming="false" Location="Memory">
+					<ShortName>f2.wav</ShortName>
+					<CachePath>SFX/f2_10C4C929.wem</CachePath>
+				</File>
+				<File Id="841149917" Language="SFX" Streaming="false" Location="Memory">
+					<ShortName>f1.wav</ShortName>
+					<CachePath>SFX/f1_10C4C929.wem</CachePath>
+				</File>
 				<File Id="994021658" Language="SFX" Streaming="false" Location="Memory">
 					<ShortName>BGM.wav</ShortName>
 					<CachePath>SFX/BGM_D79FB2B7.wem</CachePath>
+				</File>
+				<File Id="1036798395" Language="SFX" Streaming="false" Location="Memory">
+					<ShortName>f5.wav</ShortName>
+					<CachePath>SFX/f5_10C4C929.wem</CachePath>
 				</File>
 			</Media>
 			<Events>
@@ -37,8 +57,17 @@
 						<MediaRef Id="994021658"/>
 					</MediaRefs>
 				</Event>
+				<Event Id="3854155799" Name="Play_Footsteps" DurationType="OneShot" DurationMin="0.10842296" DurationMax="0.1318909">
+					<MediaRefs>
+						<MediaRef Id="412721091"/>
+						<MediaRef Id="625851356"/>
+						<MediaRef Id="694010476"/>
+						<MediaRef Id="841149917"/>
+						<MediaRef Id="1036798395"/>
+					</MediaRefs>
+				</Event>
 			</Events>
 		</SoundBank>
 	</SoundBanks>
-	<FileHash>{D6C514DF-93B2-B39D-ECC1-652898CE0830}</FileHash>
+	<FileHash>{06D0DE32-A574-CAD5-EC6F-B25FE7AD4332}</FileHash>
 </SoundBanksInfo>

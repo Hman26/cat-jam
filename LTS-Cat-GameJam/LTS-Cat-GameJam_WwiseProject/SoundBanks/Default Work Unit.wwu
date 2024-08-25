@@ -7,6 +7,7 @@
 					<ObjectInclusionList>
 						<ObjectRef Name="BGM" ID="{006DC9DC-0498-4167-83FE-06A8617B3EA7}" WorkUnitID="{043E89A5-0CC0-43C5-9711-3EFB0531094F}" Origin="Manual" Filter="7"/>
 						<ObjectRef Name="Play_BGM" ID="{FBAF7421-175E-4322-BC69-824AA5D0C6E8}" WorkUnitID="{57095574-8FC2-4F1D-8C5E-BD1F19D9835F}" Origin="Manual" Filter="7"/>
+						<ObjectRef Name="Play_Footsteps" ID="{CA6BF7C4-F905-48A5-B5C6-CEFCC997CAEB}" WorkUnitID="{57095574-8FC2-4F1D-8C5E-BD1F19D9835F}" Origin="Manual" Filter="7"/>
 					</ObjectInclusionList>
 					<ObjectExclusionList/>
 					<GameSyncExclusionList/>
