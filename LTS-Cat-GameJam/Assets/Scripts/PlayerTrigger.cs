@@ -8,6 +8,7 @@ public class PlayerTrigger : MonoBehaviour
     public Transform square;
     public GameManager gameManager;
 
+    public float maxSpeed;
     void Awake()
     {
         gameManager = GameObject.Find("GameManager").GetComponent<GameManager>();
@@ -23,12 +24,15 @@ public class PlayerTrigger : MonoBehaviour
     {
         if (collision.gameObject.tag == "Speed")
         {
-            Debug.Log("Speed increased");
-            pc.speed += 5;
-            Debug.Log(pc.speed); 
-        }
+            if (pc.speed <= maxSpeed)
+            {
+                Debug.Log("Speed increased");
+                pc.speed += 5;
+                Debug.Log(pc.speed);
+            }
+            }
 
-        if (collision.gameObject.tag == "Finish")
+            if (collision.gameObject.tag == "Finish")
         {
             Debug.Log("Lap completed");
             gameManager.currentLap++; 
