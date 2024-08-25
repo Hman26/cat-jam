@@ -117,11 +117,12 @@ public class GameManager : MonoBehaviour
         }
         if (currentLap >= 3 && _gameTimer >= 0)
         {
+            losePanel.SetActive(false);
             winPanel.SetActive(true);
             _gameTimer = 0;
             PauseGame();
         }
-        if (currentLap < 3 && _gameTimer <= 0)
+        else if (currentLap < 3 && _gameTimer <= 0)
         {
             _goldStarThree.SetActive(false);
             _goldStarTwo.SetActive(false);
@@ -134,6 +135,7 @@ public class GameManager : MonoBehaviour
     {
         //pauses the game by setting the time to zero and returning
         Time.timeScale = 0;
+        playBGM.Stop(gameObject);
         return;
     }
     public void UnpauseGame()
