@@ -18,20 +18,20 @@ public class CatScoreCheck : MonoBehaviour
     void Update()
     {
         //you got three star, and plays smug cat animation
-        if (gm._goldStarTwo.activeInHierarchy && gm._goldStarOne.activeInHierarchy)
+        if (!gm._goldStarTwo.activeInHierarchy && !gm._goldStarOne.activeInHierarchy)
         {
             catScoreAnimator.SetBool("0Star", false);
             catScoreAnimator.SetBool("1Star", false);
             catScoreAnimator.SetBool("2Star", false);
-            return;
+            catScoreAnimator.SetBool("3Star", true);
         }
         //you got two star, and plays sleeping cat animation
-        else if (gm._goldStarThree.activeInHierarchy)
+        else if (!gm._goldStarThree.activeInHierarchy)
         {
             catScoreAnimator.SetBool("0Star", false);
             catScoreAnimator.SetBool("2Star", false);
             catScoreAnimator.SetBool("3Star", false);
-            return;
+            catScoreAnimator.SetBool("1Star", true);
         }
         //you got one star, and plays sad cat animation
         else
@@ -39,6 +39,7 @@ public class CatScoreCheck : MonoBehaviour
             catScoreAnimator.SetBool("1Star", false);
             catScoreAnimator.SetBool("2Star", false);
             catScoreAnimator.SetBool("3Star", false);
+            catScoreAnimator.SetBool("0Star", true);
             return;
         }
     }
